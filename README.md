@@ -1,4 +1,4 @@
-# Pharmacy-Management-System
+ # Pharmacy-Management-System
 # Pharmacy Management System (PMS)
 
 Pharmacy Management System is a client/server-based medical information system designed for efficient stock management and billing procedures in pharmacies.
@@ -46,9 +46,9 @@ Pharmacy Management System is a client/server-based medical information system d
 1. Install XAMPP.
 2. Clone this repository into the `htdocs` directory of XAMPP.
 3. Start Apache and MySQL via XAMPP control panel.
-4. Create a new database in `phpmyadmin`.
-5. Import the provided SQL file for the database setup.
-6. Access the system via your browser.
+4. Go to db_connection.php and change the PASSWORD variable depending upon your MySQL password. This is used to connect the MySQL database with PHP.
+5. Type http://localhost/Pharmacy-Management-System/ in your system browser.
+6. Login with username as admin and password as admmin123.
 
 ## 🤝 Contribution:
 
